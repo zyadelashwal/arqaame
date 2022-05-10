@@ -32,7 +32,7 @@ function App() {
                 <th>2017</th>
             </tr>
             <tr >
-                <th style={{width:150}}>التفاصيل</th>
+                <th ></th>
                   <th>مليون ريال</th>
                   <th>مليون ريال</th>
                   <th>مليون ريال</th>
@@ -43,7 +43,11 @@ function App() {
       
        
         <tbody>
-        <h2 id='theadTableName' >قائمة الدخل</h2>
+          <div id='theadTableName'>
+            <h3>قائمة الدخل</h3>
+            <p>التفاصيل</p>
+          </div>
+        
         <tr>
               <td >الايرادات</td>
                 <td >249.64</td>
@@ -110,7 +114,11 @@ function App() {
         </tbody>
 
             <tbody> 
-              <h2 id='theadTableName'>قائمة المركز المالي</h2>
+             
+                <div id='theadTableName'>
+                  <h3>قائمة المركز المالي</h3>
+                  <p>التفاصيل</p>
+              </div>
             <tr>
                   <td >الايرادات</td>
                     <td >249.64</td>
@@ -178,7 +186,11 @@ function App() {
      
      
           <tbody>
-          <h2 id='theadTableName'>قائمة التدفقات النقدية</h2>
+          
+          <div id='theadTableName'>
+                  <h3>قائمة التدفقات النقدية</h3>
+                  <p>التفاصيل</p>
+              </div>
           <tr>
                 <td >الايرادات</td>
                   <td >249.64</td>
